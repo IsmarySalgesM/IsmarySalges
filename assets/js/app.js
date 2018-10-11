@@ -1,3 +1,6 @@
+/*----------------------------------------------------*/
+/* Quote Loop
+------------------------------------------------------ */
 
 function fade($ele) {
     $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
@@ -61,6 +64,3 @@ jQuery(document).ready(function($) {
 
 
 TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
-
-
-

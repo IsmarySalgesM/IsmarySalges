@@ -220,13 +220,13 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-    width: 100%;
+     width: 100%;
 	height: 100vh;
 	background: #e55d87;
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+   
 }
 .title {
 	-webkit-align-self: center;
@@ -452,6 +452,9 @@ opacity: 0;
 
 #about {
 	padding: 100px 0 50px 0;
+}
+.imgme{
+    border-radius: 20%
 }
 /* Team Section
 ********************************************************************* */
