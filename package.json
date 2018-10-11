@@ -1,0 +1,14 @@
+{
+  "name": "portafolio.is",
+  "version": "0.0.1",
+  "description": "portafolio front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Ismary Salges",
+  "license": "ISC"
+}
