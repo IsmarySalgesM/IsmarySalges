@@ -11,9 +11,7 @@ function fade($ele) {
 fade($('.quoteLoop > .quote').first());
 
 
-/*----------------------------------------------------*/
-/* Navigation
------------------------------------------------------- */
+/* Nav */
 
 $(window).scroll(function() {
 
@@ -40,10 +38,7 @@ $('.main_nav li a').click(function() {
     }
 });
 
-
-/*----------------------------------------------------*/
-/* Smooth Scrolling
------------------------------------------------------- */
+/* Smooth Scrolling */
 
 jQuery(document).ready(function($) {
 
