@@ -4,29 +4,21 @@
 html {
 	font-size: 52.5%;
 }
-
-html {
-	box-sizing: border-box;
-  }
-  *, *:before, *:after {
-	box-sizing: inherit;
-  }
-
 body {
-	text-align: center;
-	font-size: 2.0em;
-	line-height: 1.6;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #222;
+text-align: center;
+font-size: 2.0em;
+line-height: 1.6;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+color: #222;
 	
 }
 
 /* NavsLinks */
 a {
-	color: #cb2d3e;
+color: #cb2d3e;
 }
 a:hover {
-	color: #cb2d3e;
+color: #cb2d3e;
 }
 /* Header*/
 
@@ -87,79 +79,79 @@ overflow: hidden;
 transition: all 0.3s;
 opacity: 0;
 top: -100px;
-	padding-bottom: 6px;
+padding-bottom: 6px;
 }
 
 @media only screen and (max-width: 766px) {
 .main_nav {
-	padding-top: 25px;
+padding-top: 25px;
 }
 }
 .open-nav {
-	max-height: 400px !important;
+max-height: 400px !important;
 }
 .sticky {
-	background-color: #ffffff;
-	opacity: 1;
-	top: 0px;
+background-color: #ffffff;
+opacity: 1;
+top: 0px;
 }
 nav {
-	width: 100%;
-	margin-top: 5px;
+width: 100%;
+margin-top: 5px;
 }
 
 @media only screen and (max-width: 766px) {
 nav {
-	width: 100%;
+width: 100%;
 }
 }
 nav ul {
-	list-style: none;
-	overflow: hidden;
-	text-align: center;
+list-style: none;
+overflow: hidden;
+text-align: center;
 }
 
 @media only screen and (max-width: 766px) {
 nav ul {
-	padding-top: 0px;
-	margin-bottom: 22px;
-	text-align: center;
-	width: 100%;
+padding-top: 0px;
+margin-bottom: 22px;
+text-align: center;
+width: 100%;
 }
 }
 nav ul li {
-	display: inline-block;
-	margin-left: 35px;
-	line-height: 1.5;
-	letter-spacing: 1px;
+display: inline-block;
+margin-left: 35px;
+line-height: 1.5;
+letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 766px) {
 nav ul li {
-	width: 100%;
-	padding: 7px 0;
-	margin: 0;
+width: 100%;
+padding: 7px 0;
+margin: 0;
 }
 nav ul li:first-child {
-	margin-top: 70px;
+margin-top: 70px;
 }
 }
 nav ul a {
-	text-transform: uppercase;
-	font-size: 12px;
-	text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+text-decoration: none;
 }
 nav ul a:hover {
-	color: #CFCFCF;
+color: #CFCFCF;
 }
 .mobile-toggle {
-	display: none;
-	cursor: pointer;
-	font-size: 20px;
-	position: absolute;
-	right: 22px;
-	top: 0;
-	width: 30px;
+display: none;
+cursor: pointer;
+font-size: 20px;
+position: absolute;
+right: 22px;
+top: 0;
+width: 30px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -168,12 +160,12 @@ nav ul a:hover {
 }
 }
 .mobile-toggle span {
-	width: 30px;
-	height: 4px;
-	margin-top: 30%;
-	margin-bottom: 6px;
-	background: #cb2d3e;
-	display: block;
+width: 30px;
+height: 4px;
+margin-top: 30%;
+margin-bottom: 6px;
+background: #cb2d3e;
+display: block;
 }
 .scroll-down {
 position: absolute;
@@ -241,11 +233,6 @@ opacity: 0;
 }
 /* About Section*/
 
-#about {
-width: 100%;
-height: 100vh;
-padding: 100px 0 100px 0;
-}
 .imgme{
 border-radius: 20%;
 max-width: 80%;
@@ -258,23 +245,13 @@ color: #cb2d3e;
 .card{
 margin-top: 5%;
 }
-/* Proyectos */
-#proyectos{
-padding: 100px 0 100px 0;
-width: 100%;
-height: 100vh;
-}
-#contact{
-width: 100%;
+
+.allView{
+width: 100vw;
 height: 100vh;
 padding: 100px 0 100px 0;
 }
-/* Skills Section */
-#skills {
-width: 100%;
-height: 100vh !important;
-padding: 100px 0 100px 0;
-}
+
 /* Footer Section */
 footer {
 background: #cb2d3e;  /* fallback for old browsers */
