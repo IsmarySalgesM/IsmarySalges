@@ -12,7 +12,12 @@ font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 color: #222;
 	
 }
-
+.abc{
+margin-top: 10%;
+}
+.cba{
+	margin-top: 5%;
+}
 /* NavsLinks */
 a {
 color: #cb2d3e;
@@ -247,8 +252,7 @@ margin-top: 5%;
 }
 
 .allView{
-width: 100vw;
-height: 100vh;
+height: 100%;
 padding: 100px 0 100px 0;
 }
 
