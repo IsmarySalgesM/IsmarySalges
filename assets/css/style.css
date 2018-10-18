@@ -12,12 +12,7 @@ font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 color: #222;
 	
 }
-.abc{
-margin-top: 10%;
-}
-.cba{
-	margin-top: 5%;
-}
+
 /* NavsLinks */
 a {
 color: #cb2d3e;
@@ -26,8 +21,6 @@ a:hover {
 color: #cb2d3e;
 }
 /* Header*/
-
-
 header {
 display: flex;
 -webkit-box-pack: center;
@@ -250,7 +243,9 @@ color: #cb2d3e;
 .card{
 margin-top: 5%;
 }
-
+.abc{
+	margin-bottom: 10%;
+}
 .allView{
 height: 100%;
 padding: 100px 0 100px 0;
@@ -287,10 +282,20 @@ position: relative;
 top: -2px;
 left: -2px;
 border-radius: 50%;
-transition: all 0.3s ease;
+
 }
 
-
+i.material-icons:nth-of-type(1) {
+background-color: #cb2d3e;
+}
+	
+i.material-icons:nth-of-type(2) {
+background-color: #cb2d3e;
+}
+	
+i.material-icons:nth-of-type(3) {
+background-color: #cb2d3e;
+}
 i.material-icons:nth-of-type(4) {
 background-color: #cb2d3e;
 }
@@ -315,17 +320,7 @@ i.material-icons:nth-of-type(9) {
 background-color: #cb2d3e;
 }
 
-i.material-icons:nth-of-type(1) {
-background-color: #cb2d3e;
-}
 
-i.material-icons:nth-of-type(2) {
-background-color: #cb2d3e;
-}
-
-i.material-icons:nth-of-type(3) {
-background-color: #cb2d3e;
-}
 @media (min-width:601px) {
 i.material-icons {
 padding:10px;
@@ -347,3 +342,13 @@ left:-3px;
 }
 }
 
+/* Footer */
+
+.icon-contac{
+font-size: 2em;
+color: white
+}
+
+.titleWhite{
+	color: white;
+}
