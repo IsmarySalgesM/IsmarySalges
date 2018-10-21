@@ -18,6 +18,10 @@ color: #222;
 font-size: 2em;
 letter-spacing: 0.4em;
 }
+.picturePro{
+width: 80%;
+height: 80%;
+}
 /* NavsLinks */
 a {
 color: #cb2d3e;
