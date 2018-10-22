@@ -10,5 +10,6 @@
     "portafolio"
   ],
   "author": "Ismary Salges",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
